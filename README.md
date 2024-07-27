@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Starter Kit
+
+A Next.js starter kit, bundled with RecoilJS for state management, ShadCN UI for UI, and Tailwind CSS for styling. It also includes Next-Themes for theme control.
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to get the project up and running on your local machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensure you have the following installed on your system:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Node.js (v14 or higher)
+- npm or yarn
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+1. **Clone the repository:**
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/aniruddhasoni/nextjs-today-starter-kit.git
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Navigate to the project directory:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    cd nextjs-today-starter-kit
+    ```
 
-## Deploy on Vercel
+3. **Install the dependencies:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Using npm:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```bash
+    npm install
+    ```
+
+    Using yarn:
+
+    ```bash
+    yarn install
+    ```
+
+4. **Start the development server:**
+
+    Using npm:
+
+    ```bash
+    npm run dev
+    ```
+
+    Using yarn:
+
+    ```bash
+    yarn dev
+    ```
+
+5. **Open your browser and visit:**
+
+    ```
+    http://localhost:3000
+    ```
+
+### Features
+
+- **RecoilJS**: State management library.
+- **ShadCN UI**: User Interface components.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **Next-Themes**: Theme management for dark/light mode.
+
+### Project Structure
+    ├── README.md
+    ├── components.json
+    ├── next-env.d.ts
+    ├── next.config.mjs
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.mjs
+    ├── public
+    │ ├── next.svg
+    │ └── vercel.svg
+    ├── src
+    │ ├── app
+    │ │ ├── favicon.ico
+    │ │ ├── globals.css
+    │ │ ├── layout.tsx
+    │ │ ├── page.tsx
+    │ │ └── recoilContextProvider.tsx
+    │ ├── components
+    │ │ ├── theme-provider.tsx
+    │ │ └── ui
+    │ │ └── sonner.tsx
+    │ └── lib
+    │ └── utils.ts
+    ├── tailwind.config.ts
+    └── tsconfig.json
+
+### Customization
+
+Feel free to modify the project to suit your needs. The starter kit is designed to be a foundation upon which you can build your application.
+
+### Contributing
+
+If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Happy coding! 🚀
